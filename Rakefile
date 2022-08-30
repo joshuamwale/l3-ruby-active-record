@@ -31,3 +31,10 @@ end
         puts "Division"
     end
 end
+
+desc 'Summation of two numbers'
+task :summation, [:num1, :num2] do |t, args|
+    addition = args[:num1].to_i + args[:num2].to_i
+    puts "Summation: #{addition}"
+    puts "T IS: #{t}" #the way u like it
+end

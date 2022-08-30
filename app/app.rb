@@ -46,4 +46,19 @@ end
 #react_course = Course.find(3)
 #react_course.description = "Made by Meta"
 #react_course.save
+
+class Printer
+
+  #receive params in the specified order
+  
+          # def printYou(key, value)
+         #   puts "#{key}: #{value}"
+         # end
+
+  #receives params in the unspecified order
+  
+         # def printMe(key:, value:)
+         #   puts "#{key}: #{value}"
+         # end
+
 binding.pry
